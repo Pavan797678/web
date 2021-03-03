@@ -1,0 +1,355 @@
+.hr_div{
+    width: 2px;
+    height: 20px;
+    margin-top: 10px;
+    background-color: rgb(110, 110, 110);
+}.notification_icon{
+    height: 18px;
+    width: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+}.btn-primary1{
+    border: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    color: #fff;
+    background-color:rgb(230, 87, 94);
+    transition: .5s;
+    border-radius: 5px;
+    padding: 4px 20px 4px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 3px; 
+    
+
+   
+   
+  } .bannerSection{
+    width: 100%;
+    height: 75vh;
+    background-image: url("./assets/ic_banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bannerInput{
+    height: 55px;
+    width: 68%;
+
+    border: none;
+}
+.bannerInput:focus{
+    outline: none;
+}
+.bannerButton{
+    height: 55px;
+    width: 25%;
+    background-color: rgb(230, 87, 94);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+}
+.bannerButton:hover, .bannerButton:active{
+ background-color: rgb(230, 87, 94);
+ color: white;
+ text-decoration: none;
+}
+
+
+.bannerLocationIC{
+    height: 55px;
+    width: 7%;
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bannerHeading{
+  color: white; 
+  width: 85%;
+}
+
+.bannerPtext{
+  color: white; 
+  font-size: 25px;
+  font-weight: 300;
+}.bannerInput{
+    height: 55px;
+    width: 60%;
+
+    border: none;
+}.bannerButton{
+    height: 55px;
+    width: 10%;
+    background-color: rgb(230, 87, 94);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+}
+.bannerButton:hover, .bannerButton:active{
+ background-color: rgb(230, 87, 94);
+ color: white;
+ text-decoration: none;
+}
+
+
+.bannerLocationIC{
+    height: 55px;
+    width: 7%;
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.dropdown_btn{
+    margin-left: 40px;
+    margin-top: 8px;
+   
+}.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .cardS {
+    margin-left: 30px;
+    
+   
+}.carosuel_item_names{
+    margin-left: 35%;
+}.carosuel_item_names1{
+    margin-left: 30%;
+}
+
+
+.second_crousal_body{
+    margin-left: 60px;
+}.footerSection {
+    height: 18vh;
+    width: 100%;
+    background-color: #242222;
+    padding-top: 5px;
+  }
+  .footerSection .container {
+    height: 100%;
+  }
+  hr.style1 {
+    width: 100%;
+    border-top: 1px solid #8c8b8b;
+  }
+  .footerPara {
+    color: white;
+  }
+  .footerPara:hover {
+    color: white;
+  }
+  .forMargin {
+    margin-left: 25px;
+  }
+  
+  .vl {
+    display: none;
+  }
+  
+  .forMarginLinks {
+    margin-right: 10px;
+  }
+  .forMarginLinks1 {
+    margin-right: 50px;
+  }
+  .forMarginLinks2 {
+    margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 400px),
+    (max-width: 800px) and (min-width: 200px) {
+    .footerSection {
+      height: 20vh;
+      padding-top: 5px;
+    }
+  
+    .footerLinks {
+      height: 25px;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: baseline;
+    }
+    .footerPara {
+      font-size: 12px;
+    }
+    .vl {
+      display: inline;
+      border-left: 1px solid white;
+      margin-right: 5px;
+    }
+  
+    .iconsDiv {
+      margin-top: 20px;
+     float: inline-start;
+      
+    }
+    .forMargin {
+      margin-left: unset;
+    }
+  
+    .forMarginLinks {
+      margin-right: 5px;
+    }
+    .forMarginLinks1 {
+      margin-right: 10px;
+    }
+    .forMarginLinks2 {
+      margin-right: 5px;
+    }
+    
+    
+    .carosuel_item_names{
+        margin-left: 25%;
+    }.carosuel_item_names1{
+        margin-left: 35%;
+    } .notification_icon{
+       
+        margin-top: -42px;
+        
+       
+    }
+  }
+  
+  
+
+
+@media screen and (max-width: 400px),
+  (max-width: 800px) and (min-width: 200px) {
+    .bannerHeading{
+      width: 100%;
+      text-align: center;
+    }
+    .bannerPtext{
+      text-align: center;
+    }.hr_div{
+      width: 0px;
+      height: 0px;
+      margin-top: 10px;
+      background-color: white;
+  }.btn-primary1{
+    border: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    color: #fff;
+    background-color:rgb(230, 87, 94);
+    transition: .5s;
+    border-radius: 5px;
+    padding: 4px 20px 4px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 3px; 
+    
+
+   
+   
+  }
+
+   
+
+  
+
+
+
+
+.bannerSection{
+  width: 100%;
+  height: 50vh;
+  background-image: url("./assets/ic_banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}.google_play{
+    height: 40px;
+    width: 120px;
+}.apple_store{
+    height: 40px;
+    width: 120px;
+    margin-left: 10px;
+}.bannerLocationIC{
+    height: 40px;
+    width: 7%;
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bannerInput{
+  height: 40px;
+  width: 38%;
+
+  border: none;
+}.bannerButton{
+    height: 40px;
+    width: 20%;
+    background-color: rgb(230, 87, 94);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+  }.dropdown_btn{
+      width: 10%;
+      margin-left: 20px;
+      margin-top: 2px;
+  }
+  }@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* cards the counter cards */
+
+  .card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    
+  }.carsouel{
+      overflow: hidden;
+  }
+  
